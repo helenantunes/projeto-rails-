@@ -1,0 +1,1 @@
+File.write("teste.txt", "olá rails")
