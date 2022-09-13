@@ -13,6 +13,19 @@ gem 'rails', '~> 5.0.1'
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+
+gem 'jwt'
+
+gem 'devise_token_auth'
+
+gem 'devise-i18n'
+
+gem 'versionist'
+
+gem 'kaminari'
+
+gem 'api-pagination'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -40,6 +53,8 @@ group :development, :test do
   gem 'pry-rails'
 
   gem 'annotate', '~> 3.2'
+
+  gem 'rspec-rails', '3.5'
 end
 
 group :development do

@@ -14,3 +14,7 @@
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
 end
+
+#unless Rails.env.test?
+  #Rails.application.config.middleware.use "AppName", "Notebook API - OK!"
+#end

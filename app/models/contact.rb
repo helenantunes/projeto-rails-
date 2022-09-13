@@ -20,6 +20,9 @@
 #
 class Contact < ApplicationRecord
 
+  #Kaminari
+  paginates_per 5
+
   #Associações
   belongs_to :kind, optional: true
   has_many :phones
