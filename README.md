@@ -1,24 +1,20 @@
-# README
+# Projeto API Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Active Model Serializers
 
-* Ruby version
+* Autenticação
 
-* System dependencies
+* Versionamento
 
-* Configuration
+* Paginação
 
-* Database creation
+* Tratamento de Erros
 
-* Database initialization
+* Caching
 
-* How to run the test suite
+* Rack
 
-* Services (job queues, cache servers, search engines, etc.)
+* Teste Funcional
 
-* Deployment instructions
 
-* ...
